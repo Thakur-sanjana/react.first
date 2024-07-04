@@ -1,4 +1,9 @@
 const Buttoncomponent=()=>{
-    return <button>click me</button>
+    const  buttonStyle={color:"yellow",backgroundColor:"green"}
+    return(
+    <>
+    <button onClick={()=>{}} className="" style={buttonStyle}>click me</button>
+    </>
+    );
 };
 export default Buttoncomponent;
